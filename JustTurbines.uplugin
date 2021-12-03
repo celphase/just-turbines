@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 0,
-	"VersionName": "0.1.0",
+	"VersionName": "0.1.1",
 	"FriendlyName": "Just Turbines",
 	"Description": "Substitute early-game power with small savonius wind turbines.",
 	"Category": "Modding",
@@ -14,8 +14,8 @@
 	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
 	"Installed": false,
-	"SemVersion": "0.1.0",
-	"RemoteVersionRange": "^0.1.0",
+	"SemVersion": "0.1.1",
+	"RemoteVersionRange": "^0.1.1",
 	"AcceptsAnyRemoteVersion": false,
 	"Modules": [],
 	"Plugins": [
