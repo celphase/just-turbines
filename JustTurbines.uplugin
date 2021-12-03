@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "0.1.0",
 	"FriendlyName": "Just Turbines",
-	"Description": "Just Turbines",
+	"Description": "Substitute early-game power with small savonius wind turbines.",
 	"Category": "Modding",
 	"CreatedBy": "CELPHASE",
 	"CreatedByURL": "",
@@ -11,7 +11,25 @@
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
-	"IsBetaVersion": false,
+	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"SemVersion": "0.1.0",
+	"RemoteVersionRange": "^0.1.0",
+	"AcceptsAnyRemoteVersion": false,
+	"Modules": [
+		{
+			"Name": "JustTurbines",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.0.0",
+			"bIsOptional": false,
+			"Enabled": true
+		}
+	]
 }
